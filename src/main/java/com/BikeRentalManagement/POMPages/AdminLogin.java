@@ -6,10 +6,10 @@ import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class BikeRentalManagement_AdminLogin {
+public class AdminLogin {
 	
 	//constructor
-		public BikeRentalManagement_AdminLogin(WebDriver driver) {
+		public AdminLogin(WebDriver driver) {
 			
 			PageFactory.initElements(driver, this);
 			

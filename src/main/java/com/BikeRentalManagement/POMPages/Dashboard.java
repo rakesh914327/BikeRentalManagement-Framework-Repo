@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class BikeRentalManagement_Dashboard {
+public class Dashboard {
     private WebDriver driver;
 
     // Element locators using @FindAll for auto-healing
@@ -112,7 +112,7 @@ public class BikeRentalManagement_Dashboard {
     })
     private WebElement testimonialsFullDetailLink;
 
-    public BikeRentalManagement_Dashboard(WebDriver driver) {
+    public Dashboard(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
