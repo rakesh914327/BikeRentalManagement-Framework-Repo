@@ -1,4 +1,4 @@
-package com.bikerentalapp.genric.fileutility;
+package com.BikeRentalManagement.genric.fileutility;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
