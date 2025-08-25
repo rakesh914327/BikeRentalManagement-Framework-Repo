@@ -13,5 +13,9 @@ public class AdminLoginTest extends BaseClass{
 	public void adminLoginTest() {
 		
 	}
+	@Test
+	public void adminLogoutTest() {
+		
+	}
 
 }
